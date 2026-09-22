@@ -21,6 +21,7 @@ function Home() {
     <main>
       <Hero>
         <HeroImage src={HeaderImage} alt="WALLYWOOD plakater" />
+        
       </Hero>
 
       <PosterList />

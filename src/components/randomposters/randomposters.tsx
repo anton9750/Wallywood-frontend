@@ -12,6 +12,7 @@ type Poster = {
 };
 
 export function useRandomPosters(url: string, count: number) {
+  
   const [data, setData] = useState<Poster[]>([]);
 
   const [loading, setLoading] = useState(true);
