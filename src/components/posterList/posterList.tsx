@@ -3,19 +3,24 @@ import { useRandomPosters } from "../../hooks/userandomposters";
 import PosterCard from "../../partials/cards";
 
 const Section = styled.section`
+
   max-width: 1000px;
   margin: 0 auto;
   padding: 2rem 1rem;
 `;
 
+
 const Heading = styled.h2`
+
   color: #d97757;
+
   margin-bottom: 1.5rem;
 `;
 
 const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  
   gap: 2rem;
 `;
 
